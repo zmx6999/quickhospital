@@ -1,0 +1,64 @@
+https://api.carelink.cn/v1/sms/getSmsCode.json
+
+{
+"mobile_number": "17092875286"
+}
+
+{
+"code": 0,
+"msg": "OK",
+"data": null
+}
+
+https://api.carelink.cn/v1/user/carelinkRegisterS1.json
+
+{
+"mobile_number": "17092875286",
+"channel_id": 32,
+"sms_code": "317656",
+"invite_code": ""
+}
+
+{
+"code": 0,
+"msg": "OK",
+"data": null
+}
+
+https://api.carelink.cn/v1/user/carelinkRegisterS2.json
+
+{
+"mobile_number": "17092875286",
+"password": "123456",
+"sms_code": "317656",
+"password_confirm": "123456",
+"invite_code": "",
+"channel_id": 32
+}
+
+{
+"code": 0,
+"msg": "OK",
+"data": {
+"user_id": 253804,
+"member_id": 0,
+"true_name": "",
+"head_photo": "",
+"mobile_number": "17092875286",
+"card_number": "",
+"card_type": 0,
+"gender": 0,
+"province_id": 0,
+"city_id": 0,
+"county_id": 0,
+"associate_id": null,
+"address": "",
+"login_token": "4571cd16700eb551408479e6ce663792",
+"weight": "0.0",
+"height": "0.0",
+"age": 0,
+"easymob_id": null,
+"easymob_password": null,
+"is_certify": 2
+}
+}
